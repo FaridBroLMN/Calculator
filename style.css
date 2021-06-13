@@ -41,6 +41,7 @@ table tbody input:hover{
     background: none;
     margin-top: 25px;
     font-size: 25px;
+    pointer-events: none;
 }
 #calc_top::placeholder{
     color: black;
