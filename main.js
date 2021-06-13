@@ -4,6 +4,6 @@ function Func(deyir){
 function an(){
     calculator.anwser.value=eval(calculator.anwser.value)
 }
-function delet(){
+function del(){
     calculator.anwser.value="";
 }
