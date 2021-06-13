@@ -6,4 +6,4 @@ function an(){
 }
 function delet(){
     calculator.anwser.value="";
-} 
+}
