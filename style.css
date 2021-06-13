@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #222;
+}
+form{
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 130px;
+}
+table tbody input{
+    transition: 0.30s;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+}
+table tbody input:hover{
+    transition: 0.30s;
+    border-radius: 35%;
+}
+#calc_top{
+    border: none;
+    outline: none;
+    text-align: right;
+    height: 40px;
+    width: 350px;
+    background: none;
+    margin-top: 25px;
+    font-size: 25px;
+}
+#calc_top::placeholder{
+    color: black;
+    margin-right: 10px;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    border: none;
+    outline: none;
+}
+p{
+    margin-top: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.how{
+    background-color: rgb(34, 34, 34);
+}
