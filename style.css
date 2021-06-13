@@ -58,10 +58,10 @@ p{
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.how{
+.ho{
     transition: 0.10s;
     background-color: rgb(34, 34, 34);
 }
-.how:hover{
+.ho:hover{
     font-size: 25px;
 }
