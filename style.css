@@ -11,10 +11,10 @@ form{
     background-color: #fff;
     width: 350px;
     height: 450px;
-    margin: auto;
     text-align: center;
     border-radius: 5px;
     margin-top: 130px;
+    animation: calculator_an 4s forwards;
 }
 table tbody input{
     transition: 0.25s;
@@ -64,4 +64,14 @@ p{
 }
 .ho:hover{
     font-size: 25px;
+}
+@keyframes calculator_an{
+    from{
+        position: relative;
+        left: 0px;
+    }
+    to{
+        position: relative;
+        left: 550px;
+    }
 }
