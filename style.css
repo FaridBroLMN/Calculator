@@ -67,11 +67,15 @@ p{
 }
 @keyframes calculator_an{
     from{
+        opacity: 0;
         position: relative;
         left: 0px;
+        pointer-events: none;
     }
     to{
+        opacity: 1;
         position: relative;
         left: 550px;
+        pointer-events: all;
     }
 }
